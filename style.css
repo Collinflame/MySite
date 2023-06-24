@@ -52,3 +52,24 @@ nav li:hover .dropdown-content {
 .dropdown-content ul {
     flex-direction: column;
 }
+.sectionIMG {
+    max-height: 450px;
+    max-width: 276px;
+}
+.quad {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.quadLeft {
+    display: flex;
+    flex-direction: column;
+}
+.quadRight {
+    display: flex;
+    flex-direction: column;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+}
