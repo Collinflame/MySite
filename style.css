@@ -73,3 +73,8 @@ nav li:hover .dropdown-content {
     display: flex;
     flex-direction: row;
 }
+.description {
+    position: relative;
+    left: 580px;
+    bottom: 380px;
+}
