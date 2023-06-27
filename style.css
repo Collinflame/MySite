@@ -86,3 +86,25 @@ nav li:hover .dropdown-content {
     text-decoration: none;
     color: #000000;
 }
+.cardIMG {
+    max-height: 1000px;
+    max-width: 680px;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box {
+    max-height: 1000px;
+    width: 1200px;
+    background-color: #3a3939;
+}
+h3 {
+    font-size: x-large;
+}
