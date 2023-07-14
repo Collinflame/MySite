@@ -115,3 +115,13 @@ nav li:hover .dropdown-content {
 h3 {
     font-size: x-large;
 }
+.letterboxd {
+    max-height: 70px;
+    max-width: 70px;
+}
+.letterboxd2 {
+    max-height: 70px;
+    max-width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
