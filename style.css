@@ -38,7 +38,7 @@ nav a:hover, nav a.active {
 }
 .dropdown-content {
     position: absolute;
-    top: 37px;
+    top: 45px;
     width: 100%;
     display: none;
     z-index: 20;
