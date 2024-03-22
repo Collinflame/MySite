@@ -1,2 +1,2 @@
 A personal site where I will create rankings for movies, shows, comics, games, book, etc. Each section of a ranking includes information on the subject.
-Also, I started to do reviews early 2023 so if a review references something I shouldn't have experienced yet that is why.
+Also, reviews ma be slightly different from the original reviews.
