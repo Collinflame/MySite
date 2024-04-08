@@ -21,6 +21,10 @@ nav li {
     display: flex;
     position: relative;
     min-width: 200px;
+    border-top: solid black 4px;
+    border-bottom: solid black 4px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
 }
 nav a, nav a:visited {
     text-decoration: none;
@@ -38,7 +42,7 @@ nav a:hover, nav a.active {
 }
 .dropdown-content {
     position: absolute;
-    top: 45px;
+    top: 36px;
     width: 100%;
     display: none;
     z-index: 20;
