@@ -56,42 +56,7 @@ nav li:hover .dropdown-content {
 .dropdown-content ul {
     flex-direction: column;
 }
-.sectionIMG {
-    max-height: 450px;
-    max-width: 276px;
-}
-.quad {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-.quadLeft {
-    display: flex;
-    flex-direction: column;
-}
-.quadRight {
-    display: flex;
-    flex-direction: column;
-}
-.section {
-    display: flex;
-    flex-direction: row;
-    font-size: x-large;
-}
-.description {
-    position: relative;
-    left: 580px;
-    bottom: 380px;
-    color: #000000;
-}
-.bigSec {
-    margin-top: -100px;
-}
 .title {
-    text-decoration: none;
-    color: #000000;
-}
-.title2 {
     text-decoration: none;
     color: #000000;
     text-align: center;
@@ -116,10 +81,6 @@ h3 {
 .letterboxd {
     max-height: 70px;
     max-width: 70px;
-}
-.letterboxd2 {
-    max-height: 70px;
-    max-width: 70px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -141,4 +102,19 @@ h3 {
 
 .Button:hover {
     background-color: #555;
+}
+.poster {
+    height: 552px;
+    width: 360px;
+    margin: 25px;
+}
+.detail {
+    text-align: center;
+}
+.home-row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 12px;
 }
