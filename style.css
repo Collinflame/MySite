@@ -78,11 +78,14 @@ nav li:hover .dropdown-content {
 h3 {
     font-size: x-large;
 }
-.letterboxd {
+.socials {
     max-height: 70px;
     max-width: 70px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
 }
 .Button {
     display: none;
