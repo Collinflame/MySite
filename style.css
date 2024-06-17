@@ -81,9 +81,11 @@ h3 {
 .socials {
     max-height: 70px;
     max-width: 70px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 10px;
+}
+.social {
     display: flex;
+    flex-direction: row;
     position: relative;
     justify-content: center;
 }
