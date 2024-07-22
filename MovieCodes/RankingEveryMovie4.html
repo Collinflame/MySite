@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Ranking Every Movie I've Ever Watched</title>
     <link href="MovieStyle.css" rel="stylesheet" type="text/css">
     <script src="../MySite.js"></script>
 </head>
@@ -29,16 +29,16 @@
 <nav>
     <ul>
         <li>
-            <a class="active" href="MovieHome.html">🏠</a>
+            <a href="MovieHome.html">🏠</a>
         </li>
         <li>
-            <a>Ranking Every Movie I've Ever Watched</a>
+            <a class="active">Ranking Every Movie I've Ever Watched</a>
             <div class="dropdown-content">
                 <ul>
                     <li><a href="RankingEveryMovie1.html">Page 1</a></li>
                     <li><a href="RankingEveryMovie2.html">Page 2</a></li>
                     <li><a href="RankingEveryMovie3.html">Page 3</a></li>
-                    <li><a href="RankingEveryMovie4.html">Page 4</a></li>
+                    <li><a class="active" href="RankingEveryMovie4.html">Page 4</a></li>
                 </ul>
             </div>
         </li>
@@ -73,8 +73,10 @@
         </li>
     </ul>
 </nav>
-    <h1 class="title">Movie Home</h1>
-    <div class="social">
+<h1 class="title">Ranking Every Movie I've Ever Watched</h1>
+<h2 class="title">Worst to Best</h2>
+<h2 class="title">Page 4</h2>
+<div class="social">
     <a href="https://www.goodreads.com/user/show/164171238-jonathan-garcia" target="_blank">
         <img class="socials" src="../Images/Goodreads.png" alt="Goodreads Link"></a>
     <a href="https://www.serializd.com/user/CollinFlame/profile" target="_blank">
@@ -86,66 +88,21 @@
     <a href="https://leagueofcomicgeeks.com/profile/collinflame" target="_blank">
         <img class="socials" src="../Images/LeagueComicGeeks.png" alt="League of Comic Geeks Link"></a>
 </div>
-    <div class="home-row">
-        <div>
-            <img alt="LatestWatchedMovie" class="poster" src="https://image.tmdb.org/t/p/original/q3W067KbG6s2H6fguz3hGedigAv.jpg">
-            <div class="details">
-                <h2>Latest Watched</h2>
-                <h3>Battle for the Planet of the Apes</h3>
-            </div>
-        </div>
-        <div>
-            <img alt="NextWatchlistMovie" class="poster" src="https://image.tmdb.org/t/p/original/ehYkgIEVkJY0SBX8cGHjmKtCeri.jpg">
-            <div class="details">
-                <h2>Next in Watchlist</h2>
-                <h3>Toy Story 4</h3>
-            </div>
-        </div>
-        <div>
-            <img alt="Latest10Movie" class="poster" src="https://image.tmdb.org/t/p/original/n38YbNqUf5KWpMJFc4X3t0rlhg5.jpg">
-            <div class="details">
-                <h2>Latest 10/10</h2>
-                <h3>Candyman</h3>
-            </div>
-        </div>
-        <div>
-            <img alt="FTierMovie" class="poster" src="https://image.tmdb.org/t/p/original/AR3zrKjf04n4miOhZNaUntOGgb.jpg">
-            <div class="details">
-                <h2>Latest F-Tier</h2>
-                <h3>Son of the Mask</h3>
-            </div>
-        </div>
+    <div class="card">
+    <img alt="Whiplash" class="cardIMG" src="../Images/Whiplash.png">
+    <div class="box">
+        <h3>Whiplash</h3>
+        <h3>2014 🥁 Rated R 🥁 Drama 🥁 Music 🥁 1 Hour 46 Minutes</h3>
+        <h3>A Damien Chazelle Film</h3>
+        <h3>Starring Miles Teller, J.K. Simmons, Paul Reiser, Melissa Benoist, Austin Stowell, and Nate Lang</h3>
+        <h3>My Review: "10/10. Whiplash is perfection. Miles Teller, and J.K. Simmons brought a movie experience I've never felt before.
+            The plot was simple but so god damn affective. The cinematography with beautiful. The pacing was just right to keep me at the edge of my seat.
+            The drama and music was everything I could've asked for. Andrew is a protagonist that has faults but is till so loveable.
+            Terrence Fletcher is the best performed character I've ever seen. The ending was so bitter sweet and not overdone.
+            Everything is perfect."</h3>
     </div>
-    <div class="home-row">
-        <div>
-            <img alt="BestMonthMovie" class="poster" src="https://image.tmdb.org/t/p/original/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg">
-            <div class="details">
-                <h2>Best of July</h2>
-                <h3>The Matrix</h3>
-            </div>
-        </div>
-        <div>
-            <img alt="WorstMonthMovie" class="poster" src="https://image.tmdb.org/t/p/original/6bpEq4Us6P0hS8gJS6xdX7HftM3.jpg">
-            <div class="details">
-                <h2>Worst of July</h2>
-                <h3>Beneath the Planet of the Apes</h3>
-            </div>
-        </div>
-        <div>
-            <img alt="BestYearMovie" class="poster" src="https://m.media-amazon.com/images/I/91MeoYwAP8L._AC_UF894,1000_QL80_.jpg">
-            <div class="details">
-                <h2>Best of 2024</h2>
-                <h3>Knives Out</h3>
-            </div>
-        </div>
-        <div>
-            <img alt="WorstYearMovie" class="poster" src="https://image.tmdb.org/t/p/original/AR3zrKjf04n4miOhZNaUntOGgb.jpg">
-            <div class="details">
-                <h2>Worst of 2024</h2>
-                <h3>Son of the Mask</h3>
-            </div>
-            </div>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Got to Top of Page</button>
+<button id="Back" title="Go Back"><a href="RankingEveryMovie3.html">Got to Page 3</a></button>
 </body>
 </html>
