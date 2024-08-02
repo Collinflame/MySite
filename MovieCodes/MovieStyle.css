@@ -69,6 +69,7 @@ nav li:hover .dropdown-content {
     display: flex;
     flex-direction: row;
     margin: 12px;
+    justify-content: center;
 }
 .box {
     max-height: 1000px;
